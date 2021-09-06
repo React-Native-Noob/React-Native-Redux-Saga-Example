@@ -1,8 +1,8 @@
 import * as types from './../types';
 const initialState = {
-  id: '69',
-  name: 'Mantu',
-  email: 'mantu@gmail.com',
+  id: '',
+  name: '',
+  email: '',
 };
 
 const reducer = (state = initialState, action) => {
